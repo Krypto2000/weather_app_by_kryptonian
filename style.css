@@ -87,10 +87,10 @@ color: #fff;
  .weather_info{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1.5rem;
-    width: 60%;
+    grid-gap: 0.2rem;
+    grid-auto-columns: 20px;
     margin-top: 3rem;
-   margin-left: -1.3rem;
+  
 } 
  .weather_card{
     display: flex;
@@ -118,8 +118,10 @@ color: #fff;
     }
      .weather_info{
       display: block;
-        
-       
+    
+    }
+    .weather_search i{
+        display: none;
     } 
    
 }
