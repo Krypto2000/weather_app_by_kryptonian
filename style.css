@@ -108,7 +108,7 @@ color: #fff;
 } 
 @media (max-width:936px){
     .container{
-        width: 100%;
+        width: 95%;
     }
     .weather_header{
         flex-direction: column;
