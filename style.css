@@ -33,16 +33,20 @@ input{
 input::placeholder{
      color: #fff;
 }
-.weather_search{
+.weather_header{
     position: relative;
+    
+    
 }
+
 .weather_search i{
 position: absolute;
-left: 10px;
+left: 15px;
 top: 10px;
 font-size: 15px;
 color: #fff;
 }
+
 .weather_units{
     font-size: 1.5rem;
 }
@@ -84,25 +88,27 @@ color: #fff;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.5rem;
+    width: 60%;
     margin-top: 3rem;
+   margin-left: -1.3rem;
 } 
  .weather_card{
     display: flex;
     align-items: center;
     background: #1e1e1e;
-    padding: 1rem;
+    padding: 0.2rem;
     border-radius: 10px; 
 }
 .weather_card i{
     font-family: 1.5rem;
     margin-right: 1rem;
 }
-.weather_card p{
+.weather_card h2{
     font-size: 14px;
 } 
 @media (max-width:936px){
     .container{
-        width: 90%;
+        width: 100%;
     }
     .weather_header{
         flex-direction: column;
@@ -110,9 +116,19 @@ color: #fff;
     .weather_units{
         margin-bottom: 1rem;
     }
+     .weather_info{
+      display: block;
+        
+       
+    } 
+   
 }
 @media(max-width){
     .weather_info{
         grid-template-columns: none ;
+       
+    
     }
+    
+    
 }
