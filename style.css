@@ -15,6 +15,10 @@
     width: 40%;
     margin: 4rem auto;
     border-radius: 10px;
+    background-image: url(./assests/noaa-0ETSZYPjvDo-unsplash.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
 }
 .weather_header{
     display: flex;
@@ -90,13 +94,14 @@ color: #fff;
     grid-gap: 0.2rem;
     grid-auto-columns: 20px;
     margin-top: 3rem;
+    
   
 } 
  .weather_card{
     display: flex;
     align-items: center;
-    background: #1e1e1e;
-    padding: 0.2rem;
+    background-color: transparent;
+    padding: 0.5rem;
     border-radius: 10px; 
 }
 .weather_card i{
